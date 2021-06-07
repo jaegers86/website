@@ -1,0 +1,17 @@
+baseurl = ""
+googleAnalytics = ""
+title = "Simon Jaeger"
+theme = "academimal"
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[author]
+name = "Simon Jaeger"
+
+[params]
+title = "Assistant Professor of Economics,"
+institution = "Massachusetts Institute of Technology"
+logo = "Simon_Jaeger.jpg"
+Twitter = "Simon_Jaeger"
+Email = "sjaeger@mit.edu"
