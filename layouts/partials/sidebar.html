@@ -1,0 +1,31 @@
+<h1 class="sidebar"><a class="sidebar" href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+<p style="font-size:18px;" style="color:#5e5e5e;" >{{ .Site.Params.title }} <br/>
+{{ .Site.Params.institution }}</p>
+<hr/>
+
+{{ $.Scratch.Set "currentPageTitle" .Title }}
+
+
+
+<p class="sidebar"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
+<p class="sidebar"><a class="sidebar" href="{{ "research/#Publications" | relURL }}">Publications</a></p>
+<p class="sidebar"><a class="sidebar" href="http://economics.mit.edu/faculty/sjaeger">MIT Page</a></p>
+
+<p class="sidebar">
+<img src="{{ "/icons/email_icon.png" | relURL }}" class="octicons">
+<a class="sidebar" href="mailto:{{ .Site.Params.Email }}" target="_blank">
+{{ .Site.Params.Email }}
+</a></p>
+<p class="sidebar">
+	<img src="{{ "/icons/twitter_icon.png" | relURL }}" class="octicons">
+<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
+@{{ .Site.Params.Twitter }}
+</a></p>
+
+{{ with .Site.Params.logo }}
+{{ if (eq "Homepage" ($.Scratch.Get "currentPageTitle")) }}
+<img src="{{ . | relURL }}" alt="Logo" style="padding-bottom: 3em; padding-top: 5em;"/>
+{{ else }}
+<img class="nothomepage" src="{{ . | relURL }}" alt="Logo" style="padding-bottom: 3em;"/>
+{{ end }}
+{{ end }}

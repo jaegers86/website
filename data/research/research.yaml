@@ -1,0 +1,46 @@
+      
+workingpapers:
+
+- title: "Long-Term Effects of Equal Sharing: Evidence from Inheritance Rules for Land"
+  pdflink: "http://economics.mit.edu/files/20830.pdf"
+  book: "Working Paper"
+  coauthors: "Charlotte Bartels and Natalie Obergruber"
+  abstract: >
+    What are the long-term economic effects of a more equal distribution of wealth? We exploit variation in historical inheritance rules for land traversing political, linguistic, geological, and religious borders in Germany. In some German areas, inherited land was to be shared or divided equally among children, while in others land was ruled to be indivisible. Using a geographic regression discontinuity design, we show that equal division of land led to a more equal distribution of land; other potential drivers of growth are smooth at the boundary and equal division areas were not historically more developed. Today, equal division areas feature higher average incomes and a right-shifted skill, income, and wealth distribution. Higher top incomes and top wealth in equal division areas coincide with higher education, and higher labor productivity. We show evidence consistent with the more even distribution of land leading to more innovative industrial by-employment during Germany’s transition from an agrarian to an industrial economy and, in the longrun, more entrepreneurship.
+
+
+- title: "How Substitutable are Workers? Evidence from Worker Deaths"
+  pdflink: "http://economics.mit.edu/files/16635.pdf"
+  book: "Revise and resubmit, American Economic Review"
+  coauthors: "Jörg Heining"
+  year: "2019"
+  presscoverage:
+    - url: "https://clsbluesky.law.columbia.edu/2017/06/14/how-substitutable-are-workers-evidence-from-worker-deaths/"
+      text: "Summary for Columbia Law School's blog" 
+  abstract: >
+    To assess the substitutability between workers within a firm, and between incumbent workers and outsiders, we estimate how exogenous worker exits aect a firm’s demand for incumbent workers and new hires. Using matched employer-employee data from Germany, we analyze the eects of 34,000 unexpected worker deaths and show that these worker exits on average raise the remaining workers’ wages and retention probabilities for a period of several years. The average eect masks substantial heterogeneity: Coworkers in the same occupation as the deceased see positive wage eects; coworkers in other occupations instead experience wage decreases when a high-skilled worker or manager dies. Finally, when the external labor market in the deceased’s occupation is thin, incumbents’ wages respond more and external hiring responds less to a worker death. Taken together, our findings imply that incumbent workers are closer substitutes to one another compared to outsiders, that high-skilled workers and managers are complements to coworkers in other occupations, and that thin external markets for skills lead to higher firm-specificity of human capital and lower replaceability of incumbents.
+
+
+publications:
+
+- title: "A Permutation Test for the Regression Kink Design"
+  pdflink: "http://economics.mit.edu/files/13020.pdf"
+  book: "Journal of the American Statistical Association, Vol. 113:522, pp. 494-504"
+  coauthors: "Peter Ganong"
+  year: "2018"
+  abstract: >
+    The Regression Kink (RK) design is an increasingly popular empirical method for estimating causal effects of policies, such as the effect of unemployment benefits on unemployment duration. Using simulation studies based on data from existing RK designs, we empirically document that the statistical significance of RK estimators based on conventional standard errors can be spurious. In the simulations, false positives arise as a consequence of nonlinearities in the underlying relationship between the outcome and the assignment variable, confirming concerns about the misspecification bias of discontinuity estimators pointed out by Calonico et al. (2014b). As a complement to standard RK inference, we propose that researchers construct a distribution of placebo estimates in regions with and without a policy kink and use this distribution to gauge statistical significance. Under the assumption that the location of the kink point is random, this permutation test has exact size in finite samples for testing a sharp null hypothesis of no effect of the policy on the outcome. We implement simulation studies based on existing RK applications that estimate the effect of unemployment benefits on unemployment duration and show that our permutation test as well as inference procedures proposed by Calonico et al. (2014b) improve upon the size of standard approaches, while having sufficient power to detect an effect of unemployment benefits on unemployment duration.
+
+
+- title: "Learning about Job Search: A Field Experiment with Job Seekers in Germany"
+  pdflink: "http://economics.mit.edu/files/13778.pdf"
+  book: "Journal of Public Economics, Vol. 164"
+  coauthors: "Steffen Altmann, Armin Falk, and Florian Zimmermann"
+  year: "2018"
+
+- title: "Complex Tax Incentives"
+  pdflink: "http://economics.mit.edu/files/13021.pdf"
+  book: "American Economic Journal: Economic Policy, 7 (3):1-28"
+  coauthors: "Johannes Abeler"
+  year: "2015"
+
